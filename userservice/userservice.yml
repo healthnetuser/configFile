@@ -10,7 +10,8 @@
 #spring.jpa.hibernate.ddl-auto: update
 
 example.property: "I AM USER SERVICE"
-spring.datasource.driver: "com.postgresql.Driver"
+spring.datasource.driver-class-name: "com.postgresql.Driver"
+
 spring.datasource.url: "jdbc:postgresql://localhost:5432/healthnet"
 spring.datasource.username: "postgres"
 spring.datasource.password: "root"
